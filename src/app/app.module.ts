@@ -6,13 +6,25 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { SliderComponent } from './slider/slider.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProductComponent } from './product/product.component';
+import { ClientsComponent } from './clients/clients.component';
+import { ServicesComponent } from './services/services.component';
+import { HomeComponent } from './home/home.component';
+import { HomeServicesComponent } from './home-services/home-services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SliderComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    ProductComponent,
+    ClientsComponent,
+    ServicesComponent,
+    HomeComponent,
+    HomeServicesComponent
   ],
   imports: [
     BrowserModule,
